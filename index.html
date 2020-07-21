@@ -1,27 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500&display=swap" rel="stylesheet">
-    <title>Document</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/styles.css">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500&display=swap"
+		rel="stylesheet">
+	<title>Document</title>
 </head>
+
 <body>
-    <div class="weather-wrapper">
-    	
-    	<div class="weather">
-    		<div class="search">
-    			<input type="text" class="search-city">
-    		</div>
-    		<div class="current">
-    			<span class="current-city"></span>
-    			<span class="current-state"></span>
-    			<span class="current-gradus"></span>
-    			<div class="icon"></div>
-    		</div>
-    	</div>
-    </div>
+	<div class="weather-wrapper">
+		<div class="error"></div>
+		<div class="weather">
+			<div class="search">
+				<input type="text" class="search-city">
+			</div>
+			<div class="current">
+				<div class="current-city city">
+					<span class="city-name"></span>
+					<span class="city-symbols"></span>
+				</div>
+				<span class="current-state"></span>
+				<span class="current-gradus"></span>
+				<div class="icon"></div>
+			</div>
+		</div>
+	</div>
 </body>
 <script src="./js/main.js"></script>
+
 </html>
